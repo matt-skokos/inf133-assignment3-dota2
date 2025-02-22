@@ -1,0 +1,11 @@
+.carousel {
+	width: 400px;
+}
+
+app-artist {
+	vertical-align: middle;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5); /* create a box around the arrows*/
+	text-shadow: 0 0 8px white; /* halo effect */
+}

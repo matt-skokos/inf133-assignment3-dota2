@@ -1,0 +1,17 @@
+<!--TODO: Define click callback to load about me information-->
+<button class="btn btn-light" (click)="loadMe()">Load info about me</button>
+<!--TODO: replace ??? to bind to name-->
+@if(isLoggedIn){
+	<h3>Logged in user: {{name}}</h3>
+}
+
+<!--TODO: bind img src's to profile_pic-->
+ <!-- added alt text to image -->
+<img [src]="profile_pic" class="profile" alt="{{name}}">
+<p>
+	<!--TODO: bind link's href to profile_link (done)-->
+	<!-- Hidden if the user is not logged in -->
+	@if(isLoggedIn){
+		<a [href]="profile_link" class="btn btn-light" target="_blank">Open profile on Spotify</a>
+	}
+</p>

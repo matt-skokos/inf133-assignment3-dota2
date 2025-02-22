@@ -1,0 +1,7 @@
+
+h5 {
+	transition: text-shadow .03s ease;
+}
+h5:hover {
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3); /* X-offset, Y-offset, Blur radius, Color */
+}

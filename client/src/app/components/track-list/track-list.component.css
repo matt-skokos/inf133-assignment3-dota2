@@ -1,0 +1,10 @@
+table {
+	color: var(--dark);
+	
+}
+a {
+	color: blue;
+}
+a:hover {
+	color: #9900CC;
+}
